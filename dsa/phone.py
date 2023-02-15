@@ -38,7 +38,7 @@ def main():
 def add_con():
     name = input("Enter name: ")
     phone = input("Enter phone number: ")
-    email = input("Enter an Email")
+    email = input("Enter an Email: ")
     contacts[name] = {'name': name, 'phone': phone, 'email': email}
     print(contacts[name])
 
